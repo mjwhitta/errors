@@ -1,3 +1,3 @@
-module gitlab.com/mjwhitta/errors
+module github.com/mjwhitta/errors
 
-go 1.17
+go 1.19

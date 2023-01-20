@@ -2,7 +2,7 @@
 
 <a href="https://www.buymeacoffee.com/mjwhitta">🍪 Buy me a cookie</a>
 
-[![Go Report Card](https://goreportcard.com/badge/gitlab.com/mjwhitta/errors)](https://goreportcard.com/report/gitlab.com/mjwhitta/errors)
+[![Go Report Card](https://goreportcard.com/badge/github.com/mjwhitta/errors)](https://goreportcard.com/report/github.com/mjwhitta/errors)
 
 ## What is this?
 
@@ -13,7 +13,7 @@ A simple errors package that dynamically prepends the package name.
 Open a terminal and run the following:
 
 ```
-$ go get --ldflags="-s -w" --trimpath -u gitlab.com/mjwhitta/errors
+$ go get --ldflags="-s -w" --trimpath -u github.com/mjwhitta/errors
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ package mypackage
 import (
     "os"
 
-    "gitlab.com/mjwhitta/errors"
+    "github.com/mjwhitta/errors"
 )
 
 func OpenFileByName(name string) (*os.File, error) {
@@ -47,4 +47,4 @@ func OpenFileByName(name string) (*os.File, error) {
 
 ## Links
 
-- [Source](https://gitlab.com/mjwhitta/errors)
+- [Source](https://github.com/mjwhitta/errors)
