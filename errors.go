@@ -36,6 +36,6 @@ func New(str string) error {
 
 // Newf will return a new error from format string with a prefixed
 // package name.
-func Newf(str string, params ...interface{}) error {
-	return fmt.Errorf(getPkg()+str, params...)
+func Newf(format string, a ...any) error {
+	return fmt.Errorf(getPkg()+format, a...)
 }
