@@ -1,4 +1,4 @@
 package errors
 
 // Version is the package version.
-const Version = "1.0.2"
+const Version string = "1.0.3"
