@@ -14,7 +14,7 @@ A simple errors package that dynamically prepends the package name.
 Open a terminal and run the following:
 
 ```
-$ go get --ldflags "-s -w" --trimpath -u github.com/mjwhitta/errors
+$ go get -u github.com/mjwhitta/errors
 ```
 
 ## Usage
